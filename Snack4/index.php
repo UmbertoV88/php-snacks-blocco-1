@@ -1,6 +1,6 @@
 <?php
 
-$array_numbers = [];  
+$array_numbers = [];
 
 // ciclo for
 for ($i = 0; count($array_numbers) < 15; $i++) {
@@ -8,7 +8,7 @@ for ($i = 0; count($array_numbers) < 15; $i++) {
     if(!in_array($number, $array_numbers)){
         array_push($array_numbers, $number);
     }
-}; 
+}
 
 //ciclo while
 // $i = 0;
@@ -18,7 +18,7 @@ for ($i = 0; count($array_numbers) < 15; $i++) {
 //         array_push($array_numbers, $number);
 //     }
 //     $i++;
-// }; 
+// }
 
 
 // ciclo do while
@@ -31,13 +31,8 @@ for ($i = 0; count($array_numbers) < 15; $i++) {
 //     $i++;
 // } while (count($array_numbers) < 15);
 
-
-echo '<pre>';
+echo "<pre>";
 var_dump($array_numbers);
-echo '</pre>'; 
-
-
-
-
+echo "</pre>";
 
 ?>

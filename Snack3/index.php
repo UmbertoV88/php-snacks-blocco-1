@@ -44,7 +44,7 @@ foreach ($posts as $key => $value) {
     echo '<br>';
     echo $key . '<br>';
     foreach ($value as $array) {
-        echo $array['title'] . '<br>' . $array['author'] . '<br>' . $array['text'] . '<br>';
+        echo $array['title'] . '<br>' . $array['author'] . '<br>' . $array['text'] . '<br>' . '<br>';
     }
 } 
 ?>
