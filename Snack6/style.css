@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+
+}
+
+.green {
+    background-color: green;
+    width: 50%;
+    height: 250px;
+    float: left;
+}
+.grey {
+    background-color: grey;
+    width: 50%;
+    height: 250px;
+    float: left;
+}
